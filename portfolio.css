@@ -1,0 +1,108 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+body{
+    font-family: 'Kavivanar', cursive;
+
+    background-image: url(../img/image1.jpeg);
+ }
+ .wrapper{
+     background-color: honeydew;
+     margin:1rem 2rem 1rem 2rem;
+     
+   
+ }
+ img{
+     width: 10%;
+     height: 10%;
+     border-radius: 10px;
+     border:0.5px black solid;
+    
+ }
+ .image{
+    flex-basis: 40%;
+    text-align: center;
+    margin-right: 35%;
+    
+ }
+ h1{
+     font-size: 1.2rem;
+     margin-top: -3rem;
+ }
+ p{
+     font-size: small;
+ }
+ .title{
+     text-align: center;
+
+ }
+ nav{
+    border-bottom: 1px solid brown;
+    border-top: 1px solid brown;
+
+ }
+ nav ul {
+    
+    list-style-type: none;
+    text-align: center;
+    margin :0;
+    padding:0;
+ }
+ nav li{
+   
+    display: inline-block;
+
+ }
+ nav a{
+     text-decoration: none;
+     font-size: small;
+     font-weight: lighter;
+     color: gray;
+     padding: 0.5rem 1rem;
+     display: block;
+     
+ }
+ nav a:hover{
+     background-color:lightgray;
+     color:black
+        
+ }
+ .about-section p{
+     font-size: 1rem;
+ }
+ .projects-section p{
+    font-size: 1rem;
+ }
+footer{
+    text-align: center;
+}
+ footer img{
+     width: 2.5rem;
+     height: 2.5rem;
+ }
+ footer ul{
+    margin: 0;
+    padding: 0;
+     list-style-type: none;
+ }
+ footer li{
+     display: inline-block;
+ }
+ footer h3{
+     font-size: x-large;
+     text-align: center;
+ }
+ form{
+     margin-top: 5rem;
+     padding-left: 1%;
+ }
+ form p{
+     font-size: large;
+     font-weight: bold;
+ } 
+.about-section ,.projects-section{
+    padding-left: 1%;
+}

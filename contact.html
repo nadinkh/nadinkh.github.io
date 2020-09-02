@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <link href="./stylecontact.css" rel="stylesheet" />
+    <title>Contact</title>
+    
+</head>
+<body>
+    <div class="page-wrapper">
+        <div id="navbar"  class="sticky" class="content">
+          <a href="/">Home</a>
+          <a href="file:///C:/Users/Administrator/Desktop/itcprecourse%20taj2/about.html">About</a>
+          <a href="file:///C:/Users/Administrator/Desktop/itcprecourse%20taj2/contact.html">Contact</a>
+        </div>
+    </div>
+  <h1>Contact</h1>
+<form oninput="contact()" action="" id="submitForm" onsubmit="sConsole(event)"><!--stack-->
+ 
+    <fieldset>
+
+    <legend>Your contact information</legend>
+     
+    <label class="required" for="first">First Name</label>
+    <input type="text" id="first" name="first" required>
+    
+
+    <label for="last">Last Name</label>
+    <input type="text" id="last" name="last" >
+
+    <label class="required" for="email">Email</label>
+    <input type="email" id="email" name="email" required>
+    
+
+    <label class="required" for="comments">Comment </label>
+    <textarea id="comments" name="comments" required></textarea>
+    
+
+    <label class="required" for="additional">Additional information:</label>
+    <textarea id="additional" name="additional" placeholder="Type anything you want.." required></textarea>
+    <button class="btn" id="SubmitBtn" disabled="disabled">Submit</button>
+  
+ </fieldset>
+
+</form>
+
+<script src="portfolio.js"></script>
+</body>
+</html>

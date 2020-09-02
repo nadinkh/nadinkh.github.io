@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image:url(blue-pink-plain-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Architects Daughter', cursive; /*changed*/
+    font-size: 16px;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .button {
+    background-color: #3d6ded;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 120px;
+  }
+ 
+  
+  .nav-item {
+    align-self: flex-end;
+    color: #3d6ded;
+    font-size: 18px;
+    margin: 15px;
+    text-decoration: none;
+  }
+  .page-wrapper {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .profile-image {
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+    font-size: 32px;
+    height: 180px;
+    margin: 50px;
+    width: 180px;
+  }
+  #navbar {   /* Style the navbar */
+    overflow: hidden;
+    background-color:#A3A2A0;
+  
+  }
+  
+  #navbar a { /* Navbar links */
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    font-size:x-large;
+    font-weight: bold;
+   margin-right: 30px;
+   
+  }
+  #navbar a:hover{
+    background-color: white;
+    color:black;
+  }
+  .content { /* Page content */
+    padding: 16px;
+   
+  }
+  
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+   
+  }
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky , .content {
+    padding-top: 30px;
+    
+   padding-left: 40%; /*centerd*/
+   
+  }
+  h1{
+    margin-top:0;
+    padding-top:8% ;
+    padding-left:10px;
+    
+  }
+
+  p,  iframe{
+   
+    display: inline-block;
+    font-size: 25px;
+    padding-left: 10px;
+
+  }
+  .fa {
+  font-size: 40px;
+  
+
+  }
+  h2{
+    padding-left: 10px;
+  }
+  .location{
+      display: none;
+  }
+  .active{
+      display: block;
+  }
+  .btn {
+    background-color: #fa5cd2;
+    color: white;
+    font-size: 20px;
+    padding: 5px 20px;
+    border-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .btn:disabled {
+    background-color: #666;
+    cursor: not-allowed;
+  }
+  
